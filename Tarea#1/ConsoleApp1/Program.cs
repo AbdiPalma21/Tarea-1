@@ -39,11 +39,9 @@ class Program
         Console.WriteLine($"El perímetro del rectángulo es: {perimetroModular}");
 
         //----------------- Ejercicio clase privada --------------------------
-        // Crear una instancia de la clase contenedora
         Console.WriteLine("--------------- Ejercicio clase Privada con datos quemados ---------------");
         ClaseContenedora contenedora = new ClaseContenedora();
 
-        // Llamar al método que demuestra el uso de Rectangulo
         contenedora.DemostrarRectangulo();
 
     }

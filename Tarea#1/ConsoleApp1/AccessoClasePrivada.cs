@@ -32,7 +32,6 @@ namespace ConsoleApp1
 
         public void DemostrarRectangulo()
         {
-            // Instanciar Rectangulo y mostrar su área y perímetro
             Rectangulo miRectangulo = new Rectangulo(10.0, 20.0);
             Console.WriteLine($"Área: {miRectangulo.CalcularArea()}");
             Console.WriteLine($"Perímetro: {miRectangulo.CalcularPerimetro()}");
